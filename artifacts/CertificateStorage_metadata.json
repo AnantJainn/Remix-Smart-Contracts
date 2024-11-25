@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "certificates",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_certificateData",
+						"type": "string"
+					}
+				],
+				"name": "storeCertificate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CertificateStorage.sol": "CertificateStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CertificateStorage.sol": {
+			"keccak256": "0xd15ac52011f6362ae43f4ddfe9541e3c6ac00e9249330b6b131bb7e6183eae81",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://66444dd30d2be290e62d40d94b76c93571bda67c2da12538254bc76c49309655",
+				"dweb:/ipfs/QmZrLZBeJGnNhRBLtDP8Atns4Gq1sT5u4a7BXBKhsyAeiD"
+			]
+		}
+	},
+	"version": 1
+}
